@@ -1,19 +1,20 @@
 //app.js
 App({
-  onLaunch: function() {
+  onLaunch: function(options) {
     //调用API从本地缓存中获取数据
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+    console.log("onLaunch", JSON.stringify(options, null, 2))
   },
 
   onShow: function (options) {
     // Do something when show.
-    console.log("onShow")
+    console.log("onShow", JSON.stringify(options, null, 2))
   },
-  onHide: function () {
+  onHide: function (options) {
     // Do something when hide.
-    console.log("onHide")
+    console.log("onHide", JSON.stringify(options, null, 2))
   },
   onError: function (msg) {
     alert("onError")
