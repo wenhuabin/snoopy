@@ -7,6 +7,19 @@ App({
     wx.setStorageSync('logs', logs)
   },
 
+  onShow: function (options) {
+    // Do something when show.
+    console.log("onShow")
+  },
+  onHide: function () {
+    // Do something when hide.
+    console.log("onHide")
+  },
+  onError: function (msg) {
+    alert("onError")
+    console.log(msg)
+  },
+
   getUserInfo: function(cb) {
     var that = this
     if (this.globalData.userInfo) {
