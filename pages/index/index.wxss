@@ -30,9 +30,9 @@
 }
 
 .copyright-one{
-  bottom: 35px;
+  bottom: 45px;
 }
 
 .copyright-two{
-  bottom: 10px;
+  bottom: 20px;
 }
