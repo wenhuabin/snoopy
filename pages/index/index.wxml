@@ -7,4 +7,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="copyright-one">
+    <text class="copy-right">{{'©'}}Copyright 2017 by @wenhuabin.</text>
+  </view>
+  <view class="copyright-two">
+    <text class="copy-right">All Right Reserved.</text>
+  </view>
 </view>
