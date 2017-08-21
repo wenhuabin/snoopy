@@ -1,5 +1,7 @@
 //index.js
 //获取应用实例
+var order = ['red', 'yellow', 'blue', 'green', 'red']
+
 var app = getApp()
 Page({
   data: {

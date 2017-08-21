@@ -1,2 +1,6 @@
 /**list.wxss**/
-
+.section__title{
+    margin: 10px 0 30px;
+    width: 100%;
+    text-align: center;
+}
