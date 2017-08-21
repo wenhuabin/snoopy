@@ -1,0 +1,38 @@
+/**swiper.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 30px;
+  color: #42b983;
+}
+
+.copyright-one,
+.copyright-two{
+  position: fixed;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.copyright-one{
+  bottom: 45px;
+}
+
+.copyright-two{
+  bottom: 20px;
+}

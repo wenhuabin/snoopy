@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/list/list",
+    "pages/swiper/swiper",
     "pages/logs/logs"
   ],
   "tabBar": {
@@ -12,6 +13,9 @@
     }, {
       "pagePath": "pages/list/list",
       "text": "列表"
+    }, {
+      "pagePath": "pages/swiper/swiper",
+      "text": "滑动"
     }, {
       "pagePath": "pages/logs/logs",
       "text": "日志"
