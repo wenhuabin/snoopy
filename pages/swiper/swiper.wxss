@@ -1,6 +1,7 @@
 /**swiper.wxss**/
 
 swiper{
+    margin-top: 45px;
     height: 240px;
 }
 
