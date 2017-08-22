@@ -24,3 +24,8 @@
 .bc_yellow{
     background-color: yellow;
 }
+
+.btn-area{
+    margin: 30px auto;
+    text-align: center;
+}
