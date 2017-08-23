@@ -4,6 +4,7 @@
     "pages/list/list",
     "pages/swiper/swiper",
     "pages/basic/basic",
+    "pages/form/form",
     "pages/examples/examples",
     "pages/logs/logs"
   ],
@@ -16,8 +17,8 @@
       "pagePath": "pages/examples/examples",
       "text": "组件"
     }, {
-      "pagePath": "pages/basic/basic",
-      "text": "基础"
+      "pagePath": "pages/form/form",
+      "text": "表单"
     }, {
       "pagePath": "pages/logs/logs",
       "text": "日志"

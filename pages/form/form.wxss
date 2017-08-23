@@ -1,0 +1,22 @@
+/**form.wxss**/
+
+.title{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+}
+
+button{
+    margin: 15px auto;
+    width: 80%;
+}
+
+.button-hover {
+  background-color: red;
+}
+
+.other-button-hover {
+  background-color: blue;
+}
