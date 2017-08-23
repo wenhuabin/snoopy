@@ -1,0 +1,30 @@
+/**examples.wxss**/
+
+.title{
+    margin-top: 45px;
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+}
+
+.btn-area{
+    margin: 45px auto 0;
+    width: 60%;
+}
+
+.nav{
+    margin-bottom: 20px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #53db9c;
+    color: #53db9c;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.navigator-hover {
+    background-color:#53db9c;
+    color: #fff;
+}

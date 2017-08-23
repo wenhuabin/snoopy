@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/list/list",
     "pages/swiper/swiper",
+    "pages/examples/examples",
     "pages/logs/logs"
   ],
   "tabBar": {
@@ -11,11 +12,8 @@
       "pagePath": "pages/index/index",
       "text": "首页"
     }, {
-      "pagePath": "pages/list/list",
-      "text": "列表"
-    }, {
-      "pagePath": "pages/swiper/swiper",
-      "text": "滑动"
+      "pagePath": "pages/examples/examples",
+      "text": "组件"
     }, {
       "pagePath": "pages/logs/logs",
       "text": "日志"
