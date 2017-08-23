@@ -1,6 +1,18 @@
 <!--basic.wxml-->
+<view class="title">
+   小图标 
+</view>
 <view class="group">
   <block wx:for="{{iconType}}" wx:key="{{item}}">
     <icon type="{{item}}" size="30"/>
   </block>
+</view>
+<view class="title">
+    进度条
+</view>
+<view class="group">
+    <progress percent="20" show-info />
+    <progress percent="40" stroke-width="12" />
+    <progress percent="60" color="pink" />
+    <progress percent="80" active />
 </view>
