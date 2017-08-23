@@ -1,0 +1,11 @@
+/**basic.wxss**/
+.group{
+    margin-top: 45px;
+    padding: 5px;
+    text-align: center;
+}
+
+icon{
+    margin: 5px;
+}
+

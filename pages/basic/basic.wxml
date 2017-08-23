@@ -1,0 +1,6 @@
+<!--basic.wxml-->
+<view class="group">
+  <block wx:for="{{iconType}}" wx:key="{{item}}">
+    <icon type="{{item}}" size="30"/>
+  </block>
+</view>
