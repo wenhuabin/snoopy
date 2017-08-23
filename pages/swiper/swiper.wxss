@@ -22,5 +22,15 @@ button{
     display: block;
     margin: 15px auto;
     width: 75%;
+    font-size: 16px;
+}
+.label{
+    overflow: hidden;
 }
 
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

@@ -11,8 +11,9 @@
 <button bindtap="changeAutoplay"> autoplay </button>
 <view class="label">
   <text class="left">图片切换时长</text>
+  <text class="right">{{interval}}</text>
 </view>
-<slider bindchange="intervalChange" show-value min="500" max="2000"/>
+<slider bindchange="intervalChange" min="500" max="2000" activeColor="#42b983"/>
 <view class="label">
   <text class="left">自动播放间隔时长</text>
 </view>
