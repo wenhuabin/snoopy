@@ -20,3 +20,13 @@ button{
 .other-button-hover {
   background-color: blue;
 }
+
+.checkbox-group{
+  margin: 30px auto;
+  width: 80%;
+}
+
+.checkbox{
+  display: inline-block;
+  margin: 5px;
+}
