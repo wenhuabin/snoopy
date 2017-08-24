@@ -20,3 +20,8 @@
     <checkbox class="check-item" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
   </label>
 </checkbox-group>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="{{item}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>

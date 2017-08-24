@@ -21,11 +21,13 @@ button{
   background-color: blue;
 }
 
+.radio-group,
 .checkbox-group{
   margin: 30px auto;
   width: 80%;
 }
 
+.radio,
 .checkbox{
   display: inline-block;
   margin: 5px;
