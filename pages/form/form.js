@@ -139,10 +139,10 @@ var pageObject = {
     })
   },
   bindTextAreaBlur: function(e) {
-    console.log(e.detail.value)
+    console.log('blur ',e.detail.value)
   },
   bindFormSubmit: function(e) {
-    console.log(e.detail.value.textarea)
+    console.log('submit ',e.detail.value.textarea)
   },
   switch1Change: function (e){
     console.log('switch1 发生 change 事件，携带值为', e.detail.value)
