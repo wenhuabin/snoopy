@@ -1,6 +1,12 @@
 <!--form.wxml-->
 
 <view class="title">
+    textarea 
+</view>
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高" />
+</view>
+<view class="title">
     switch 
 </view>
 <view class="body-view">

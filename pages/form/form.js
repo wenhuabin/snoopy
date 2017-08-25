@@ -130,6 +130,19 @@ var pageObject = {
     day: 2,
     year: date.getFullYear(),
     value: [9999, 1, 1],
+    height: 20,
+    focus: false,
+  },
+  bindButtonTap: function() {
+    this.setData({
+      focus: true
+    })
+  },
+  bindTextAreaBlur: function(e) {
+    console.log(e.detail.value)
+  },
+  bindFormSubmit: function(e) {
+    console.log(e.detail.value.textarea)
   },
   switch1Change: function (e){
     console.log('switch1 发生 change 事件，携带值为', e.detail.value)
