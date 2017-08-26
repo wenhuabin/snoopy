@@ -1,2 +1,11 @@
 /**media.wxss**/
 
+video{
+    display: block;
+    margin: 30px auto;
+}
+
+.btn-area{
+    width: 80%;
+    margin: 30px auto;
+}
