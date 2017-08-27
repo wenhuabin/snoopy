@@ -1,5 +1,21 @@
 /**media.wxss**/
 
+.page__hd{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.section__title{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+image{
+    display: block;
+    margin: 0 auto;
+}
+
 audio{
     display: block;
     margin: 30px auto;
