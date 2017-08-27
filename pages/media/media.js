@@ -110,7 +110,7 @@ Page({
 
     context.setStrokeStyle("#00ff00")
     context.setLineWidth(5)
-    context.rect(0, 0, 200, 200)
+    context.rect(0, 0, 300, 200)
     context.stroke()
     context.setStrokeStyle("#ff0000")
     context.setLineWidth(2)
@@ -128,10 +128,10 @@ Page({
   regionchange: function(e) {
     console.log(e.type)
   },
-  markertap(e): function{
+  markertap: function(e){
     console.log(e.markerId)
   },
-  controltap(e): function{
+  controltap: function(e){
     console.log(e.controlId)
   },
   imageError: function(e) {
