@@ -93,7 +93,7 @@ Page({
           mode: 'bottom right',
           text: 'bottom right：不缩放图片，只显示图片的右下边区域'
     }],
-    src: '../../resources/cat.jpg',
+    src: 'https://wenhuabin.com/images/logo.jpg',
     poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     name: '此时此刻',
     author: '许巍',
