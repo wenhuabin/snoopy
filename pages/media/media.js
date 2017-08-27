@@ -99,20 +99,43 @@ Page({
     author: '许巍',
     src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
   },
-  regionchange(e) {
+  canvasIdErrorCallback: function (e) {
+    console.error(e.detail.errMsg)
+  },
+  onReady: function (e) {
+    this.videoContext = wx.createVideoContext('myVideo')
+    this.audioCtx = wx.createAudioContext('myAudio')
+    // 使用 wx.createContext 获取绘图上下文 context
+    var context = wx.createCanvasContext('firstCanvas')
+
+    context.setStrokeStyle("#00ff00")
+    context.setLineWidth(5)
+    context.rect(0, 0, 200, 200)
+    context.stroke()
+    context.setStrokeStyle("#ff0000")
+    context.setLineWidth(2)
+    context.moveTo(160, 100)
+    context.arc(100, 100, 60, 0, 2 * Math.PI, true)
+    context.moveTo(140, 100)
+    context.arc(100, 100, 40, 0, Math.PI, false)
+    context.moveTo(85, 80)
+    context.arc(80, 80, 5, 0, 2 * Math.PI, true)
+    context.moveTo(125, 80)
+    context.arc(120, 80, 5, 0, 2 * Math.PI, true)
+    context.stroke()
+    context.draw()
+  },
+  regionchange: function(e) {
     console.log(e.type)
   },
-  markertap(e) {
+  markertap(e): function{
     console.log(e.markerId)
   },
-  controltap(e) {
+  controltap(e): function{
     console.log(e.controlId)
   },
   imageError: function(e) {
     console.log('image3发生error事件，携带值为', e.detail.errMsg)
-  },
-  onReady: function (res) {
-    this.videoContext = wx.createVideoContext('myVideo')
   },
   bindInputBlur: function(e) {
     this.inputValue = e.detail.value
@@ -135,10 +158,6 @@ Page({
       text: this.inputValue,
       color: getRandomColor()
     })
-  },
-  onReady: function (e) {
-    // 使用 wx.createAudioContext 获取 audio 上下文 context
-    this.audioCtx = wx.createAudioContext('myAudio')
   },
   audioPlay: function () {
     this.audioCtx.play()

@@ -1,5 +1,6 @@
 /**media.wxss**/
 
+canvas,
 map{
     display: block;
     margin: 30px auto;

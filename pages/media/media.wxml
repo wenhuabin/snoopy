@@ -1,5 +1,7 @@
 <!--media.wxml-->
 
+<canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas"></canvas>
+
 <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 90%; height: 300px;"></map>
 
 
