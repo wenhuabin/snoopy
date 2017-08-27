@@ -1,5 +1,10 @@
 /**media.wxss**/
 
+map{
+    display: block;
+    margin: 30px auto;
+}
+
 .page__hd{
     margin: 30px 0;
     text-align: center;
