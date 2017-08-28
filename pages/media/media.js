@@ -43,7 +43,6 @@ Page({
       },
       clickable: true
     }],
-      src: '../../resources/cat.jpg',
       danmuList: [
         {
           text: '第 1s 出现的弹幕',
@@ -93,11 +92,11 @@ Page({
           mode: 'bottom right',
           text: 'bottom right：不缩放图片，只显示图片的右下边区域'
     }],
-    src: 'https://wenhuabin.com/images/logo.jpg',
+    src: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     name: '此时此刻',
     author: '许巍',
-    src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
+    vsrc: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
   },
   canvasIdErrorCallback: function (e) {
     console.error(e.detail.errMsg)
