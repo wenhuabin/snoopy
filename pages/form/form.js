@@ -1,6 +1,5 @@
 //form.js
 //获取应用实例
-var app = getApp()
 var types = ['default', 'primary', 'warn']
 const date = new Date()
 const years = []

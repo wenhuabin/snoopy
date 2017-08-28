@@ -3,7 +3,6 @@
 var order = ['red', 'yellow', 'blue', 'green', 'red']
 var worder = ['wred', 'wyellow', 'wblue', 'wgreen', 'wred']
 
-var app = getApp()
 Page({
   data: {
     list: [{key: "bj", message: "北京"},{key: "sh", message: "上海"},{key: "hz", message: "杭州"},{key: "gz", message: "广州"}],
