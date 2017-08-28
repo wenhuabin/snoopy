@@ -18,9 +18,6 @@
       "pagePath": "pages/examples/examples",
       "text": "组件"
     }, {
-      "pagePath": "pages/media/media",
-      "text": "媒体"
-    }, {
       "pagePath": "pages/logs/logs",
       "text": "日志"
     }]

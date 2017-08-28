@@ -7,6 +7,7 @@
   <navigator class="nav" url="/pages/swiper/swiper" open-type="navigate" hover-class="navigator-hover">滚动视图</navigator>
   <navigator class="nav" url="/pages/basic/basic" open-type="navigate" hover-class="navigator-hover">基础内容</navigator>
   <navigator class="nav" url="/pages/form/form" open-type="navigate" hover-class="navigator-hover">表单</navigator>
+  <navigator class="nav" url="/pages/media/media" open-type="navigate" hover-class="navigator-hover">媒体</navigator>
   <!--
   -->
 </view>

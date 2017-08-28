@@ -43,7 +43,7 @@ Page({
       },
       clickable: true
     }],
-      src: '',
+      src: '../../resources/cat.jpg',
       danmuList: [
         {
           text: '第 1s 出现的弹幕',
